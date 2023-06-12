@@ -48,9 +48,11 @@ body{
     text-transform:uppercase;
     font-size: 12px;
 }
-.pic{
-    vertical-align: bottom;
-    height: 320px;
-    border-radius: 5px;
-    filter:  sepia(10%) saturate(2000%) hue-rotate(236deg) grayscale(20%);;
+.image-wrapper {
+    background: hsl(277, 64%, 61%);
+}
+.pic {
+    mix-blend-mode: multiply;
+    opacity: .75;
+    object-fit: cover;
 }
